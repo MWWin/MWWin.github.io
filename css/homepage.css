@@ -1,0 +1,41 @@
+/* main */
+
+.main{
+  display: flex;
+  justify-content: space-around;
+}
+  /* left */
+.left{
+  margin:20px;
+}
+
+.name{
+  font: optional;
+  font-size: 1em;
+}
+
+
+
+.kmitl{
+  display:flex;
+}
+
+  /* right */
+.right{
+  margin:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image{
+    border-radius: 50%;
+    margin:1.25rem 1.5rem;
+  }
+
+.image img{
+  object-fit: cover;
+  object-position: top;
+  height: 300px;
+  width: 300px;
+}
